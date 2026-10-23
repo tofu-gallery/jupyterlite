@@ -57,11 +57,11 @@
       "writable": true
     }
   ],
-  "created": "2026-10-23T20:24:15.278512Z",
+  "created": "2026-10-23T20:35:23.450983Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-10-23T20:24:15.279707Z",
+  "last_modified": "2026-10-23T20:35:23.452276Z",
   "mimetype": null,
   "name": "games",
   "path": "pyodide/pyb2d/games",

@@ -1,0 +1,6 @@
+# Installed after upstream's requirements.txt (pip install -r requirements.txt, then this file).
+# jupyterlite-core 0.8.0, which upstream pins, ships the JupyterLab front end with three published
+# advisories fixed in 0.8.4: GHSA-6966-vjj6-99xv (high, XSS via notebook cells pasted from the
+# clipboard), GHSA-3jqq-pw4j-pqcj (XSS via a crafted language package) and GHSA-jwrc-gm9j-263p
+# (command link trust prompt). 0.8.6 is the newest release of the same 0.8 line.
+jupyterlite-core==0.8.6

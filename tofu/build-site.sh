@@ -2,7 +2,7 @@
 # Rebuild site/, the finished JupyterLite site Tofu serves, from this repository.
 # Needs a Python 3.11 environment with this repository's requirements installed and active:
 #   python3.11 -m venv ../jupyterlite-venv && . ../jupyterlite-venv/bin/activate
-#   python -m pip install -r requirements.txt
+#   python -m pip install -r requirements.txt && python -m pip install -r tofu/requirements-tofu.txt
 # Then commit with `git add -f site` (upstream's .gitignore ignores a top-level site/ folder).
 set -eu
 cd "$(dirname "$0")/.."
